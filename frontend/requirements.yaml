@@ -1,0 +1,19 @@
+packages:
+  "recharts": "For rendering beautiful financial charts (income vs expenses, budget usage)"
+  "framer-motion": "For page transitions, list staggering, and smooth micro-interactions"
+  "date-fns": "For date formatting and manipulation"
+  "react-hook-form": "For robust form state management"
+  "@hookform/resolvers": "For Zod schema validation integration"
+  "clsx": "For conditional class names"
+  "tailwind-merge": "For merging Tailwind classes safely"
+
+images:
+  - path: "artifacts/finance-dashboard/public/images/auth-bg.png"
+    description: "Abstract 3D glassmorphism background with soft floating spheres and coins in deep indigo, emerald green, and clean white, professional finance aesthetic"
+    aspect_ratio: "16:9"
+
+notes:
+  - "App uses @workspace/api-client-react for data fetching"
+  - "Using Vietnamese currency (VND) and language as requested"
+  - "Using wouter for routing"
+  - "Assuming Shadcn UI base components exist in src/components/ui"
